@@ -1,0 +1,60 @@
+.section{
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduction-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 5px 2px black;
+    text-align: center;
+    margin: 10px;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: ease 0.5s ;
+  }
+  
+  .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .instalink {
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .instalink:hover {
+    background-color: #2980b9;
+  }
+  

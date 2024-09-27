@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(26, 1, 1);
+}
+.container{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.innercontainer{
+    width: 80vw;
+    padding: 10px 15px;
+    margin: auto;
+    height: 78vh;
+    border-radius: 30px;
+    background-color: rgb(148 243 247);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+.nav1{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a:hover {
+    color: #4c4949;
+    text-decoration: underline;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left{
+    font-family: Verdana, Geneva, Tahoma, sans-seriff;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    padding-left: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.left h1{
+    font-size: 35px;
+}
+.left h3{
+    font-size: 22px;
+}
+.left p{
+    font-size: 17px;
+}
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(88, 183, 187);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(88, 183, 187);
+    color: black;
+    transition: color 0.5s ease;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70vh;
+}
+
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+  }
+  
+  
+  
